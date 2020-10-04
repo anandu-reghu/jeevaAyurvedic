@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'images/LogoCircle.png' %}" type="image/png">
+    <link rel='stylesheet' type='text/css' href="{% static 'jeevahome/style.css' %}">
+    <title>Jeeva Ayurvedic</title>
+</head>
+<body>
+    <div class='container'>
+        
+        
+        
+        <div class='header'>
+            <a href='{% url "home" %}' id='brand'><div class='brand'>
+                <div class='headerimage'>
+                    <img src='{% static "images/LogoCircle.png" %}'>
+                </div>
+                <div class='headername'>
+                    Jeeva Ayurvedic
+                </div>
+                </div></a>
+            <div class='headerContents'>
+                
+                <a href="{% url 'treatments' %}">Treatments</a>
+                <a href="{% url 'contact' %}">Contact Us</a>
+                <a href="{% url 'about' %}">About Us</a>
+                
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div class='treatment'>
+        
+            <div class='treatmenthead'>
+                <h1 class='blue'>Available Treatments</h1>
+                <hr>
+            </div>
+            <div class='treatmentbody'>
+                
+                
+                <div id='trt1' class='treatments'>
+                   <a href="#"> 
+                    <div id="trtimg1"><img src="{% static 'images/abhyangam-ayurveda-treatment.jpg' %}" class='trtimages'></div>
+                    <div id="trtitem1"><h2>Abhyangam</h2></div>
+                    <div id='trtdescription1'>Abhyanga is a form of Ayurvedic medicine that involves massage of the body with Dosha-specific warm herb-infused oil. The oil is commonly pre-mixed with herbs for specific conditions. Traditionally, the base oil used is sesame.</div>
+                    
+                    </a>
+                 </div>
+                 
+                
+                
+                
+                <div id='trt2' class='treatments'>
+                    <a href="#">
+                    <div id="trtimg2"><img src="{% static 'images/elakkizhi.jpg' %}" class='trtimages'></div>
+                    <div id="trtitem2"><h2>Elakizhi(Ilakizhi)</h2></div>
+                    <div id='trtdescription2'>Elakizhi (Ilakizhi) or Patrapotala Sweda is an ancient Ayurvedic sudation therapy using numerous medicinal leaves (herbs). It induces perspiration within the affected area, which prompts the skin to eliminate wastes. Fresh leaves (ela) having vata pacifying properties make the herbal kizhis (bundles).</div>
+                        </a>
+                 </div>
+                
+                
+                <div id='trt3' class='treatments'>
+                    <a href="#">
+                    <div id="trtimg3"><img src="{% static 'images/kativasthi.jpg' %}" class='trtimages'></div>
+                    <div id="trtitem3"><h2>Kativasthi</h2></div>
+                    <div id='trtdescription3'>Kathi Vasti is a very result oriented Ayurveda treatment ensures relief for lower waist pain and to other un health problems. As a therapy, it has everything to get relax and peace. Kathi Vasti reduces lower back ache and it’s reliable Ayurveda treatment.</div>
+                        </a>
+                 </div>
+                
+                
+                <div id='trt4' class='treatments'>
+                    <a href="#">
+                    <div id="trtimg4"><img src="{% static 'images/nasyam.png' %}" class='trtimages'></div>
+                    <div id="trtitem4"><h2>Nasyam</h2></div>
+                    <div id='trtdescription4'>Nasyam is very effective Ayurveda remedy and it ensures relaxation for head related problems especially for many type of headaches. The illness in the head region would get much relax after Nasyam.</div>
+                        </a>
+                 </div>
+                
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/nethra%20tharpana.jpg' %}" class='trtimages'></div>
+                    <div><h2>Netra Tharpanam</h2></div>
+                    <div>Netra Tharpanam is a rejuvenating ayurvedic treatment for our eyes. For strengthening the optical nerves, prevent cataract and provide a cooling effect to the eyes, pure and medicated ghee is applied on the eyes. This strengthens eye muscles, reduces burning sensations in eyes and relieves dry eye syndromes.</div>
+                        </a>
+                 </div>
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/navarakkizhi.jpg' %}" class='trtimages'></div>
+                    <div><h2>Navarakizhi</h2></div>
+                    <div>
+                      Navarakizhi is one of the typical Ayurvedic treatments. The treatment is termed so, as Njavara(Navara) rice is the main ingredient in the preparation. The cleaned Navara rice is boiled in the mixture of milk and decoction. ... It is a nourishing and rejuvenating treatment which imparts strength and build to the body.  
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/pizhichil.jpg' %}" class='trtimages'></div>
+                    <div><h2>Pizhichil </h2></div>
+                    <div>
+                       Pizhichil is a beautiful unification of two classic Ayurvedic treatments called “Snehana” and “Swedana.” Snehana is an oil massage and Swedana induces fomentation and sweat. Pizhichil is a body massage which lasts for 60-90 minutes and involves relaxing strokes primarily aimed at reducing anxiety and stress.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/podikkizhi.jpg' %}" class='trtimages'></div>
+                    <div><h2> Podikkizhi</h2></div>
+                    <div>
+                      Podikkizhi is an ayurvedic therapy with medicinal powder. It is a therapy in which the body of the patient is fomented with linen bags containing a mixture of horse gram, black gram, gingerly seeds and other vital ingredients in powdered form.  
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/shirodhara.png' %}" class='trtimages'></div>
+                    <div><h2>Shirodhara </h2></div>
+                    <div>
+                        Shirodhara: An Ayurvedic Approach to Stress Relief. Shirodhara comes from the two Sanskrit words “shiro” (head) and “dhara” (flow). It's an Ayurvedic healing technique that involves having someone pour liquid — usually oil, milk, buttermilk, or water — onto your forehead.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/thakradhara.jpg' %}" class='trtimages'></div>
+                    <div><h2>Thakradhara </h2></div>
+                    <div>
+                        Thakradhara(Thakra- Buttermilk; Dhara- Rhythmic flow) is a procedure of pouring medicated buttermilk over the forehead of the patient as buttermilk has cooling properties and helps in calming the body and the mind.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/thalam.jpg' %}" class='trtimages'></div>
+                    <div><h2> Thalam</h2></div>
+                    <div>
+                        Thalam enhance and nourishes the brain cells. It's a very effective treatment and it cures insomnia, stress, tension and different kind of mental conditions.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/thalapothichil.jpg' %}" class='trtimages'></div>
+                    <div><h2>Thalapothichil </h2></div>
+                    <div>
+                        Thalapothichil is also called as Shirolepa (anointment to head/ head pack). Thalapothichil is from Malayalam where thala refers to head and pothichil is covering. It is the traditional Ayurveda treatment of Kerala which is very effective in various psychosomatic disorders. Basically Thalapothichil is cooling treatment.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/Udvartana.jpg' %}" class='trtimages'></div>
+                    <div><h2>Udvartana </h2></div>
+                    <div>
+                        Udvartana is a special ayurvedic body therapy that involves massaging a person's body using a unique herbal paste. The herbal paste consists of herbal powders and oils designed to provide maximum therapeutic benefit for your body type and health condition/s.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/Naranga%20Kizhi.jpg' %}" class='trtimages'></div>
+                    <div><h2>Naranga Kizhi </h2></div>
+                    <div>
+                        Naranga Kizhi is a procedure in which lemon along with other medicines are selected based on their analgesic and anti inflammatory properties. The combination serves the purpose of relieving pain and inflammation of the joints and tissues
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/stroke.png' %}" class='trtimages'></div>
+                    <div><h2>Stroke Rehabilitation </h2></div>
+                    <div>
+                        Stroke rehabilitation aims to help the patient to get over these after-effects and bring him back to good health. It also helps to regain some skills that the patient may have lost during the stroke.
+                    </div>
+                    </a>
+                 </div>
+                
+                
+                
+            
+            </div>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class='treatment'>
+            <div class='treatmentbody'>
+                
+                
+                
+                
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/headmassage.jpg' %}" class='trtimages'></div>
+                    <div><h2>Ayurvedic Head Massage </h2></div>
+                    <div>
+                        Ayurvedic head massage is an ancient therapeutic treatment that has been practiced in India for 5000+ years. It involves a variety of pressure techniques including circular massage strokes that focus on your head, shoulders, and neck regions
+                    </div>
+                    </a>
+                 </div>
+                
+                <div class='treatments'>
+                    <a href="#">
+                    <div><img src="{% static 'images/facial.jpg' %}" class='trtimages'></div>
+                    <div><h2>Ayurveda Traditional Facial </h2></div>
+                    <div>
+                        Balance and cleanse your skin with our range of traditional and ayurvedic facials. Facials begin with a thorough cleansing of the face and neck and are followed by exfoliating, moisturizing, and anti-ageing treatments optimized for the needs of your skin.
+                    </div>
+                    </a>
+                 </div>
+            
+            </div>
+        </div>   
+        
+    </div>
+    
+    
+    <br>
+    <hr width="60%">
+    
+    
+    
+    <div class='footer'>
+            
+        <div class='fcontainer'>
+            
+            
+            <div class='fcontents'>
+                <div class='fcontent1'>
+                    <div class='fhead'><h2> Jeeva Ayurvedic</h2></div>
+                    <div>Puthuvype Lighthouse Road,</div>
+                    <div>Parathikadavu Bus Stop,</div>
+                    <div>Amballur,</div>
+                    <div>Ernakulam,</div>
+                    <div>682508</div>
+                    <div>8139095663, 7736801456</div>
+                    <div>jeeva.ayurvedic.center@gmail.com</div>
+
+                </div>
+                
+                
+                <div class='fcontent3'>
+                
+                
+                </div>
+                
+                <div class='fcontent2'>
+                    <div>
+                        <div><h2>Community</h2></div>
+                        <div>Follow us on,</div>
+                         <div class='ficons'>
+                                <div class='fimg'><a href='https://instagram.com/jeeva_ayurvedic' target="_blank"><img src="{% static 'images/instagram.png' %}" id='fimg1'></a></div>
+                                <div class='fimg'><a href='https://m.facebook.com/jeeva.ayurved/' target="_blank"><img src="{% static 'images/facebook.png' %}" id='fimg2'></a></div>
+                        </div>
+                    </div>
+                    
+                    <div class='dev'>
+                    <img src="{% static 'images/kr14.jpg' %}" class='logokr14'>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin:0px 30px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.header{
+/*    background-color: cadetblue;*/
+    text-align: center;
+    padding:5px;
+    vertical-align: middle;
+    display:flex;
+    flex-wrap: wrap;    
+}
+#brand{
+    flex:2;
+}
+.brand{
+    color:black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.headerimage > img{
+    height:120px;
+}
+
+.headername{
+    padding:35px 5px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.headerContents{
+    padding:50px 0px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    flex:1;
+}
+.headerContents > a{
+    padding:50px 5px;
+    font-size: 18px;
+    color:blue;
+}
+
+
+
+
+.content{
+    text-align: center;
+    font-size: 70px;
+    color:dodgerblue;
+}
+
+.contact{
+    text-align: center;
+    font-size:20px;
+}
+
+.cntcnt{
+    padding:8px;
+}
+
+.cntbtn{
+    background: #29a329;
+    color:white;
+    font-weight: 300;
+    width:250px;
+    height:50px;
+    font-size:20px;
+    border-radius:20px;
+    margin:10px;
+}
+
+.blue{
+    color:dodgerblue;
+}
+
+
+
+
+
+.footer{
+/*    background: cadetblue;*/
+/*    height:200px;*/
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.fcontainer{
+    padding:20px;
+/*    color:white;*/
+}
+.fimg{
+    width:50px;
+}
+.ficons{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#fimg1{
+    width:80%;
+    text-shadow: white 20px 20px;
+    padding-top: 7px;
+}
+#fimg2{
+    width:150%;
+}
+.fcontents{
+    display:flex;
+    flex-wrap: wrap;
+}
+.fcontent1{
+    flex:1;
+    text-align:left;
+}
+.fcontent2{
+    flex:1;
+}
+
+.fcontent3{
+    flex:1;
+}
+
+.dev{
+    align-content: right,bottom;
+    text-align: right;
+}
+.logokr14{
+    
+    width:60px;
+    margin-top: 60px;
+}

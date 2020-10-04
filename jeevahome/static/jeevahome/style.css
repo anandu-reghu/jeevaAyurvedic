@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin:0px 30px;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.header{
+/*    background-color: cadetblue;*/
+    text-align: center;
+    padding:5px;
+    vertical-align: middle;
+    display:flex;
+    flex-wrap: wrap;    
+}
+#brand{
+    flex:2;
+}
+.brand{
+    color:black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.headerimage > img{
+    height:120px;
+}
+
+.headername{
+    padding:35px 5px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.headerContents{
+    padding:50px 0px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    flex:1;
+}
+.headerContents > a{
+    padding:50px 5px;
+    font-size: 18px;
+    color:blue;
+}
+
+
+
+
+
+.introduction{
+    display:flex;
+    flex-wrap: wrap;
+}
+#introimage{
+    width:100%;
+    
+/*    padding:30px 40px;*/
+}
+.introimage{
+    flex:1;
+    min-width: 300px;
+    padding:30px 0px 20px 0px;
+    flex-shrink: 1;
+}
+.introtext{
+    padding:30px 40px 0px 40px;
+    flex:1;
+    font-size: 24px;
+    text-align: center;
+}
+
+#introbtn{
+    background: darkgreen;
+    width:200px;
+    height:60px;
+    margin:20px;
+    border-radius: 40px;
+}
+#introbtn > a{
+    color:white;
+    font-size:24px;
+}
+
+
+
+
+
+.contactsinfo{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contacts{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding:0px 0px 0px 0px;
+}
+
+.line1{
+    flex:1;
+}
+.line2{
+    flex:1;
+}
+.content1{
+    background-color:#007800;
+    padding:91px 0px;
+}
+.content2{
+    background-color:#008700;
+    padding:91px 0px;
+}
+.content3{
+    background-color:#009600;
+    padding:90px 0px;
+}
+.content4{
+    background-color:#00a600;
+    padding:90px 0px;
+}
+.contentlink{
+    color:white;
+}
+
+
+.contactsimage{
+    flex:1;
+    padding:0px 0px 0px 0px;
+    flex-shrink: 1;
+    min-width:300px;
+}
+#contactsimage{
+    width:100%;
+}
+
+
+
+
+
+.treatmentbody{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px;
+    text-align: center;
+    
+}
+.trtimages{
+    width:100%;
+}
+
+.treatments{
+    width:300px;
+    padding:20px
+}
+
+.trtbtn{
+    text-align: center;
+}
+
+#trtbtn{
+    background: #29a329;
+    color:white;
+    font-weight: 300;
+    width:200px;
+    height:50px;
+    font-size:20px;
+    border-radius:20px;
+}
+#trtbtn > a{
+    color: white;
+}
+
+
+
+
+
+
+.feedbackbody{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:20px;
+    text-align: center;
+    border-radius: 30px; 
+    
+}
+.fdbimages{
+    width:100%;
+    border: solid #007800 5px;
+    border-radius:15px;
+}
+.feedbacks{
+    width:400px;
+    padding:20px
+}
+
+
+
+
+
+.details{
+    text-align:center;
+    font-size:30px;
+    margin-bottom: 40px;
+}
+
+.content{
+    text-align: center;
+    font-size: 50px;
+    color:dodgerblue;
+}
+
+
+.blue{
+    color:dodgerblue;
+}
+
+
+
+
+.footer{
+/*    background: cadetblue;*/
+/*    height:200px;*/
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.fcontainer{
+    padding:20px;
+/*    color:white;*/
+}
+.fimg{
+    width:50px;
+}
+.ficons{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#fimg1{
+    width:80%;
+    text-shadow: white 20px 20px;
+    padding-top: 7px;
+}
+#fimg2{
+    width:150%;
+}
+.fcontents{
+    display:flex;
+    flex-wrap: wrap;
+}
+.fcontent1{
+    flex:1;
+    text-align:left;
+}
+.fcontent2{
+    flex:1;
+}
+
+.fcontent3{
+    flex:1;
+}
+
+.dev{
+    align-content: right,bottom;
+    text-align: right;
+}
+.logokr14{
+    
+    width:60px;
+    margin-top: 60px;
+}

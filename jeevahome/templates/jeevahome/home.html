@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'images/LogoCircle.png' %}" type="image/png">
+    <link rel='stylesheet' type='text/css' href='{% static "jeevahome/style.css" %}'>
+    <title>Jeeva Ayurvedic</title>
+</head>
+<body>
+    <div class='container'>
+        
+        
+        
+        <div class='header'>
+            <a href='{% url "home" %}' id='brand'><div class='brand'>
+                <div class='headerimage'>
+                    <img src='{% static "images/LogoCircle.png" %}'>
+                </div>
+                <div class='headername'>
+                    Jeeva Ayurvedic
+                </div>
+                </div></a>
+            <div class='headerContents'>
+                
+                <a href="{% url 'treatments' %}">Treatments</a>
+                <a href="{% url 'contact' %}">Contact Us</a>
+                <a href="{% url 'about' %}">About Us</a>
+                
+                
+            </div>
+        </div>
+        
+        
+        
+        
+        <div class='introduction'>
+        
+            <div class='introimage'>
+                <img src='{% static "images/Intro.jpg" %}' id='introimage'>
+            </div>
+            <div class='introtext'>
+                <h2 class='blue'>The unknown is just a question, we find the answers.</h2>
+
+Getting an accurate diagnosis can be one of the most impactful experiences that you can have — especially if you've been in search of that answer for a while. We can help you get there.
+                <button id='introbtn'><a href='{% url "about" %}'>Find out more</a></button>
+                
+            </div>
+            
+        
+        </div>
+        
+        
+        <div class='content'>
+        
+            Why Us?
+            
+        </div>
+        <div class='details'>
+            
+            <p>Experienced Ayurvedic therapist</p>
+            <p>Separate Male and Female therapy rooms</p>
+            <p>Fully equipped Ayurvedic treatment center</p>
+            <p>Genuine and traditional ayurvedic treatment</p>
+            <p>Special rate for ayurvedic packages</p>
+            <button id='trtbtn'><a href='{% url "about" %}'>Show More</a></button>
+        </div>
+        
+        
+        
+        <div class='contactsinfo'>
+            <div class='contacts'>
+                <div class='line1'>
+                    <a href="{% url 'contact' %}" class='contentlink'>
+                        <div class='content1'>
+                        REQUEST AN APPOINTMENT
+                        </div>
+                    </a>
+                    <a href="{% url 'contact' %}" class='contentlink'>
+                        <div class='content3'>
+                        FIND A DOCTOR
+                        </div>
+                    </a>
+                </div>
+                <div class='line2'>
+                    <a href='{% url "about" %}' class='contentlink'>
+                        <div class='content2'>
+                        PATIENT AND VISITOR GUIDE
+                        </div>
+                    </a>
+                    <a href="{% url 'contact' %}" class='contentlink'>
+                        <div class='content4'>
+                        CONTACT US
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class='contactsimage'>
+                
+                <img src='{% static "images/contacts.jpeg" %}' id='contactsimage'>
+            
+            </div>
+        
+        </div>
+        
+        
+        
+        
+        <div class='treatment'>
+        
+            <div class='treatmenthead'>
+                <h1 class='blue'>Available Treatments</h1>
+                <hr>
+            </div>
+            <div class='treatmentbody'>
+                
+                
+                <div id='trt1' class='treatments'>
+                   <a href="#"> 
+                    <div id="trtimg1"><img src="{% static 'images/abhyangam-ayurveda-treatment.jpg' %}" class='trtimages'></div>
+                    <div id="trtitem1"><h2>Abhyangam</h2></div>
+                    <div id='trtdescription1'>Abhyanga is a form of Ayurvedic medicine that involves massage of the body with Dosha-specific warm herb-infused oil. The oil is commonly pre-mixed with herbs for specific conditions. Traditionally, the base oil used is sesame.</div>
+                    
+                    </a>
+                 </div>
+                 
+                
+                
+                
+                <div id='trt2' class='treatments'>
+                    <a href="#">
+                    <div id="trtimg2"><img src="{% static 'images/elakkizhi.jpg' %}" class='trtimages'></div>
+                    <div id="trtitem2"><h2>Elakizhi(Ilakizhi)</h2></div>
+                    <div id='trtdescription2'>Elakizhi (Ilakizhi) or Patrapotala Sweda is an ancient Ayurvedic sudation therapy using numerous medicinal leaves (herbs). It induces perspiration within the affected area, which prompts the skin to eliminate wastes. Fresh leaves (ela) having vata pacifying properties make the herbal kizhis (bundles).</div>
+                        </a>
+                 </div>
+                
+                
+                <div id='trt3' class='treatments'>
+                    <a href="#">
+                    <div id="trtimg3"><img src="{% static 'images/kativasthi.jpg' %}" class='trtimages'></div>
+                    <div id="trtitem3"><h2>Kativasthi</h2></div>
+                    <div id='trtdescription3'>Kathi Vasti is a very result oriented Ayurveda treatment ensures relief for lower waist pain and to other un health problems. As a therapy, it has everything to get relax and peace. Kathi Vasti reduces lower back ache and it’s reliable Ayurveda treatment.</div>
+                        </a>
+                 </div>
+                
+                
+                <div id='trt4' class='treatments'>
+                    <a href="#">
+                    <div id="trtimg4"><img src="{% static 'images/nasyam.png' %}" class='trtimages'></div>
+                    <div id="trtitem4"><h2>Nasyam</h2></div>
+                    <div id='trtdescription4'>Nasyam is very effective Ayurveda remedy and it ensures relaxation for head related problems especially for many type of headaches. The illness in the head region would get much relax after Nasyam.</div>
+                        </a>
+                 </div>
+                
+                
+            
+            </div>
+            
+            <div class='trtbtn'>
+                <a href="{% url 'treatments' %}"><button type='submit' id="trtbtn">Show More</button></a>
+            </div>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div class='feedback'>
+        
+            <div class='feedbackhead'>
+                <h1 class='blue'>Feedbacks</h1>
+                <hr>
+            </div>
+            <div class='feedbackbody'>
+                
+                
+                <div id='fdb1' class='feedbacks'>
+                    <div id="fdbimg1"><img src="{% static 'images/fdb1.png' %}" class='fdbimages'></div>
+                 </div>
+                 
+                
+                
+                
+                <div id='fdb2' class='feedbacks'>
+                    <div id="fdbimg2"><img src="{% static 'images/fdb2.png' %}" class='fdbimages'></div> 
+                 </div>
+                
+                
+                <div id='fdb3' class='feedbacks'>
+                    <div id="fdbimg3"><img src="{% static 'images/fdb3.png' %}" class='fdbimages'></div>
+                 </div>
+                
+                
+                
+                
+            
+            </div>
+        
+        
+        </div>
+        
+        
+    </div>
+    
+    
+    
+    <br>
+    <hr width="60%">
+    
+    
+    
+    
+    <div class='footer'>
+            
+        <div class='fcontainer'>
+            
+            
+            <div class='fcontents'>
+                <div class='fcontent1'>
+                    <div class='fhead'><h2> Jeeva Ayurvedic</h2></div>
+                    <div>Puthuvype Lighthouse Road,</div>
+                    <div>Parathikadavu Bus Stop,</div>
+                    <div>Amballur,</div>
+                    <div>Ernakulam,</div>
+                    <div>682508</div>
+                    <div>8139095663, 7736801456</div>
+                    <div>jeeva.ayurvedic.center@gmail.com</div>
+
+                </div>
+                
+                
+                <div class='fcontent3'>
+                
+                
+                </div>
+                
+                <div class='fcontent2'>
+                    <div>
+                        <div><h2>Community</h2></div>
+                        <div>Follow us on,</div>
+                         <div class='ficons'>
+                                <div class='fimg'><a href='https://instagram.com/jeeva_ayurvedic' target="_blank"><img src="{% static 'images/instagram.png' %}" id='fimg1'></a></div>
+                                <div class='fimg'><a href='https://m.facebook.com/jeeva.ayurved/' target="_blank"><img src="{% static 'images/facebook.png' %}" id='fimg2'></a></div>
+                        </div>
+                    </div>
+                    
+                    <div class='dev'>
+                    <img src="{% static 'images/kr14.jpg' %}" class='logokr14'>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+</body>
+</html>

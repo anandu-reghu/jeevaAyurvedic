@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="{% static 'images/LogoCircle.png' %}" type="image/png">
+    <link rel='stylesheet' type='text/css' href="{% static 'jeevahome/contact.css' %}">
+    <title>Jeeva Ayurvedic</title>
+</head>
+<body>
+    <div class='container'>
+        
+        
+        
+        <div class='header'>
+            <a href='{% url "home" %}' id='brand'><div class='brand'>
+                <div class='headerimage'>
+                    <img src='{% static "images/LogoCircle.png" %}'>
+                </div>
+                <div class='headername'>
+                    Jeeva Ayurvedic
+                </div>
+                </div></a>
+            <div class='headerContents'>
+                
+                <a href="{% url 'treatments' %}">Treatments</a>
+                <a href="{% url 'contact' %}">Contact Us</a>
+                <a href="{% url 'about' %}">About Us</a>
+                
+                
+            </div>
+        </div>
+        
+        
+         <div class='content'>
+        
+            Contact Us
+            
+        </div>
+        
+        
+        
+        <div class='contact'>
+            <div class='cntcnt'>Your Number One Choice for Good Health.</div>
+            <div class='cntcnt'>Experienced Threpists ( Singapore, Malaysia ).</div>
+            <div class='cntcnt'>We have treatments for all kind of pains.</div>
+            <div class='cntcnt'>Contact for more detais,</div>
+            <button class='cntbtn'>8139095663</button>
+            <button class='cntbtn'>7736801456</button>
+            <p></p>
+        </div>
+         
+        
+        
+        
+        
+        
+        
+    </div>
+    <br>
+    <hr width="60%">
+    
+    
+    
+    
+    
+    <div class='footer'>
+            
+        <div class='fcontainer'>
+            
+            
+            <div class='fcontents'>
+                <div class='fcontent1'>
+                    <div class='fhead'><h2> Jeeva Ayurvedic</h2></div>
+                    <div>Puthuvype Lighthouse Road,</div>
+                    <div>Parathikadavu Bus Stop,</div>
+                    <div>Amballur,</div>
+                    <div>Ernakulam,</div>
+                    <div>682508</div>
+                    <div>8139095663, 7736801456</div>
+                    <div>jeeva.ayurvedic.center@gmail.com</div>
+
+                </div>
+                
+                
+                <div class='fcontent3'>
+                
+                
+                </div>
+                
+                <div class='fcontent2'>
+                    <div>
+                        <div><h2>Community</h2></div>
+                        <div>Follow us on,</div>
+                         <div class='ficons'>
+                                <div class='fimg'><a href='https://instagram.com/jeeva_ayurvedic' target="_blank"><img src="{% static 'images/instagram.png' %}" id='fimg1'></a></div>
+                                <div class='fimg'><a href='https://m.facebook.com/jeeva.ayurved/' target="_blank"><img src="{% static 'images/facebook.png' %}" id='fimg2'></a></div>
+                        </div>
+                    </div>
+                    
+                    <div class='dev'>
+                    <img src="{% static 'images/kr14.jpg' %}" class='logokr14'>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
